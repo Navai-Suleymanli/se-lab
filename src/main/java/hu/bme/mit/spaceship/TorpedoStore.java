@@ -9,7 +9,7 @@ import java.util.Random;
 */
 public class TorpedoStore {
 
-  // rate of failing to fire torpedos [0.0, 1.0]
+  // rate of failing to fire torpedos [0.0, 1.0]; can be overridden by the IVT_RATE environment variable
   private double failureRate = 0.0; //NOSONAR
 
   private int torpedoCount = 0;
